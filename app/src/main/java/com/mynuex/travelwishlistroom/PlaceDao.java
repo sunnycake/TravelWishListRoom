@@ -9,7 +9,7 @@ import androidx.room.Update;
 
 import java.util.List;
 
-@Dao
+@Dao // For defining the methods that access the database
 public interface PlaceDao {
 
     @Insert
